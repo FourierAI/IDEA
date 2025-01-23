@@ -1,0 +1,34 @@
+# ------ root_path/dataset_name ------
+root_path: 'DATA'
+
+
+# ------ Load Cache and Features ------
+load_cache: False
+load_pre_feat: False
+
+# load_cache: True
+# load_pre_feat: True
+
+
+# ------ Hyperparamters ------
+search_hp: True
+# search_hp: False
+
+search_scale: [12, 5]
+search_step: [200, 20]
+
+init_beta: 1
+init_alpha: 3
+init_theta: 0.3
+
+# ------ Basic Config ------
+dataset: 'caltech101'
+shots: 1
+# shots: 1
+backbone: 'RN50'
+
+lr: 0.00025
+augment_epoch: 10
+# augment_epoch: 1
+# train_epoch: 20
+train_epoch: 160
