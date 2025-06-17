@@ -1,6 +1,6 @@
 # IDEA: Image Description Enhanced CLIP-Adapter for Image Classification
 
-Official implementation of 'Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification'.
+Official implementation of 'IDEA: Image Description Enhanced CLIP-Adapter for Image Classification'.
 
 ## Abstract
 
@@ -20,7 +20,7 @@ CLIP (Contrastive Language-Image Pre-training) has attained great success in pat
 1. Clone this repository:
 ```bash
 git clone https://github.com/FourierAI/IDEA
-cd IDEA-Adapter
+cd IDEA
 ```
 
 2. Creat an environment and install dependencies:
