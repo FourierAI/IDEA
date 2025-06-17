@@ -1,0 +1,39 @@
+# ------ root_path/dataset_name ------
+root_path: 'DATA'
+
+
+# ------ Load Cache and Features ------
+load_cache: False
+load_pre_feat: False
+
+# load_cache: True
+# load_pre_feat: True
+
+
+# ------ Hyperparamters ------
+search_hp: True
+# search_hp: False
+
+search_scale: [20, 10]
+search_step: [200, 20]
+
+init_beta: 1
+init_alpha: 3
+init_theta: 0.3
+
+best_beta: 1.99
+best_alpha: 7.03
+best_theta: 0.25
+
+best_alpha_f: 0.59
+best_beta_f: 1.89
+best_theta_f: 0.2
+
+# ------ Basic Config ------
+dataset: 'stanford_cars'
+shots: 2
+backbone: 'RN50'
+
+lr: 0.00005
+augment_epoch: 10
+train_epoch: 300

@@ -1,0 +1,39 @@
+# ------ root_path/dataset_name ------
+root_path: 'DATA'
+
+
+# ------ Load Cache and Features ------
+load_cache: False
+load_pre_feat: False
+
+# load_cache: True
+# load_pre_feat: True
+
+
+# ------ Hyperparamters ------
+search_hp: True
+# search_hp: False
+
+search_scale: [30, 30]
+search_step: [200, 20]
+
+init_beta: 1
+init_alpha: 5
+init_theta: 0.33
+
+best_beta: 15.05
+best_alpha: 28.51
+best_theta: 0.05
+
+best_alpha_f: 6.08
+best_theta_f: 0.7
+best_beta_f: 0.3
+
+# ------ Basic Config ------
+dataset: 'fgvc'
+shots: 8
+backbone: 'RN50'
+
+lr: 0.0001
+augment_epoch: 10
+train_epoch: 100
